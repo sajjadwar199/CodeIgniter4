@@ -10,7 +10,7 @@ use CodeIgniter\Test\Mock\MockSession;
 /**
  * @internal
  */
-final class SessionTestCase extends CIUnitTestCase
+abstract class SessionTestCase extends CIUnitTestCase
 {
     /**
      * @var SessionInterface
